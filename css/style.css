@@ -160,6 +160,10 @@ img{
     box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.15);
     overflow: hidden;
     display: none;
+    background: #fff
+;
+
+   z-index: 2;
 
 }
 .sub-menu ul{
@@ -207,10 +211,11 @@ img{
 }
 .p-line{
     width: 1px;
-    height:100px;
+    height:150px;
     position: absolute;
+
     right:0px;
-    top:100px;
+    top:35px;
     background: #e0e0e0;
 }
 /*serch 开始*/
@@ -255,11 +260,64 @@ background: transparent;
     line-height: 50px;
    text-align: center;
     top:-50px;
+}
 
+/*user-tu开始*/
+.fangtu{
+    height:460px;
+    overflow: hidden;
+    width:1226px;
+    position: absolute;
+}
+.user-list{
+    display: block;
+    width: 234px;
+    height: 460px;
+    background: #333;
+    position:absolute;
+    z-index: 1;
 
+    border: none;
+}
+.user-title{
+    position: absolute;
+    margin: 30px 0 0 0;
+    width: 234px;
 
 
 }
+
+.caidankuang{
+    display: block;
+    height: 42px;
+    line-height: 42px;
+    position: relative;
+    padding-left: 30px;
+
+}
+.caidankuang:hover{
+    background: #ff6700;
+}
+
+.caidankuang a{
+    color: #fff;
+}
+.caidankuang:hover a{
+    background: #ff6700;
+}
+.wo-tubiao{
+    float: right;
+    position: absolute;
+    margin-top: 225px;
+    background: black;
+    z-index: 4;
+    width: 992px;
+    margin-right: 0;
+
+
+}
+/*user结束*/
+
 
 
 
