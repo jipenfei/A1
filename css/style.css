@@ -229,7 +229,7 @@ img{
 .user-text{
     width: 213px;
     height:46px;
-    border-color: rgb(224, 224, 224);
+
     outline: none;
     padding: 0 10px;
 }
@@ -240,7 +240,7 @@ img{
     width:50px;
     position: absolute;
     border-width: 1px 1px 1px 0px;
-    border-color: rgb(224, 224, 224);
+
 background: transparent;
     cursor: pointer;
     outline: none;
@@ -321,7 +321,7 @@ background: transparent;
     left: 234px;
 }
 
-.next-btn{
+.next-btn, .next-btn1{
     right:0px
 
 }
@@ -329,6 +329,47 @@ background: transparent;
     background: rgba(0,0,0,0.7);
     color: #fff;
 }
+.next-btn1{
+    width: 40px;
+    height: 42px;
+    position: absolute;
+    top:50%;
+    background: transparent;
+    margin-top:-35px;
+    color: #757575;
+    font-size: 50px;
+    line-height: 70px;
+    text-align: center;
+    border-radius: 4px;
+}
+.xiao-btn{
+   right: 0;
+    width: 150px;
+    height: 18px;
+    position: absolute;
+
+
+    z-index: 3;
+    bottom:20px;
+}
+.xiao-btn li{
+    float: left;
+    display: block;
+    width: 6px;
+    height: 6px;
+    border: 2px solid #333333;
+    border-color: rgba(255,255,255,0.3);
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.xiao-btn li:hover{
+    background: #fff;
+    border: 2px solid #65666b;
+
+
+}
+
 /*user结束*/
 
 
