@@ -222,24 +222,24 @@ img{
 .search{
     float: right;
     margin-top: 20px;
-    width:286px;
+    width:290px;
     position: relative;
 
 }
 .user-text{
-    width: 213px;
-    height:46px;
-
-    outline: none;
+    width: 211px;
+    height:44px;
+    border: 1px solid #ccc
+    outline:none;
     padding: 0 10px;
 }
 
 .user-button{
     float: right;
-    height: 50px;
+    height: 48px;
     width:50px;
     position: absolute;
-    border-width: 1px 1px 1px 0px;
+    border: 1px solid #ccc;
 
 background: transparent;
     cursor: pointer;
@@ -252,14 +252,14 @@ background: transparent;
 
 }
 .icon-search{
-    position:relative;
-    float:right;
+    position:absolute;
+    right:6px;
     display: block;
-    height: 50px;
-    width:50px;
+    height: 48px;
+    width:49px;
     line-height: 50px;
    text-align: center;
-    top:-50px;
+    top:0px;
 }
 
 /*user-tu开始*/
@@ -369,6 +369,50 @@ background: transparent;
 
 
 }
+.hengkuang{
+    display: block;
+    position: absolute;
+    height: 460px;
+    width: 800px;
+    left:234px;
+     top:-30px;
+    background: #fff;
+    border-top: 1px solid #e0e0e0;
+    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.15);
+}
+.caidankuang{
+    overflow:
+}
+
+.little{
+    width:266px;
+
+    position:absolute;
+
+}
+.little li{
+    float:left;
+    height: 76px;
+    line-height: 76px;
+    position: relative;
+
+}
+.little .menu-link{
+    display: block;
+    width: 40px;
+    height: 60px;
+    line-height: 20px;
+}
+
+
+.diyikuai{
+   width:266px;
+
+
+    display: block;
+    height: 100%;
+}
+
 
 /*user结束*/
 
