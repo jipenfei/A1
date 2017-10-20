@@ -379,42 +379,9 @@ background: transparent;
     background: #fff;
     border-top: 1px solid #e0e0e0;
     box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.15);
-}
-.caidankuang{
-    overflow:
-}
-
-.little{
-    width:266px;
-    height: 76px;
-    position: absolute;
-
-
 
 }
-.diyikuai{
-   width:266px;
 
-    height: 100%;
-}
-.tu{
-
-    height: 40px;
-}
-.little li{
-    float:left;
-   height:76px;
-    line-height: 76px;
-    text-align: center;
-    position: relative;
-    left: 8px;
-}
-.tupian{
-margin-top: 10px;
-}
-
-.xuangou{
-    margin: 10px;
 }
 
 /*user结束*/
