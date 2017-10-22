@@ -1,0 +1,288 @@
+/*user-tu开始*/
+.user-tu{
+   height: 460px;
+}
+.fangtu{
+    height:460px;
+    overflow: hidden;
+    width:1226px;
+    position: absolute;
+}
+.user-list{
+    display: block;
+    width: 234px;
+    height: 460px;
+    background: rgba(0,0,0,0.6);
+    position:absolute;
+    z-index: 1;
+
+    border: none;
+}
+.user-title{
+    position: absolute;
+    margin: 30px 0 0 0;
+    width: 234px;
+
+
+}
+
+.caidankuang{
+    display: block;
+    height: 42px;
+    line-height: 42px;
+    position: relative;
+    padding-left: 30px;
+    font-size: 14px;
+
+}
+.caidankuang:hover{
+    background: #ff6700;
+}
+.caidankuang:hover .litt-meun{
+    display: block;
+}
+.caidankuang>a{
+    color: #fff;
+}
+.caidankuang:hover>a{
+    background: #ff6700;
+}
+.prev-btn,.next-btn{
+    width: 40px;
+    height: 70px;
+    position: absolute;
+    top:50%;
+    margin-top:-35px;
+    color: #757575;
+    font-size: 40px;
+    line-height: 70px;
+    text-align: center;
+    border-radius: 4px;
+}
+.prev-btn{
+    left: 234px;
+}
+
+.next-btn, .next-btn1{
+    right:0px
+
+}
+.prev-btn:hover,.next-btn:hover{
+    background: rgba(0,0,0,0.7);
+    color: #fff;
+}
+.next-btn1{
+    width: 40px;
+    height: 42px;
+    position: absolute;
+    top:50%;
+    background: transparent;
+    margin-top:-35px;
+    color: #757575;
+
+    line-height: 70px;
+    text-align: center;
+    border-radius: 4px;
+    color: gainsboro;
+}
+.xiao-btn{
+    right: 0;
+    width: 150px;
+    height: 18px;
+    position: absolute;
+
+
+    z-index: 3;
+    bottom:20px;
+}
+.xiao-btn li{
+    float: left;
+    display: block;
+    width: 6px;
+    height: 6px;
+    border: 2px solid #333333;
+    border-color: rgba(255,255,255,0.3);
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.xiao-btn li:hover{
+    background: #fff;
+    border: 2px solid #65666b;
+
+
+}
+
+.litt-meun{
+    width: 795px;
+    height:460px;
+    position: absolute;
+    margin-left: 204px;
+    background: white;
+    display: none;
+    border-top: 1px solid #e0e0e0;
+    box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.15);
+
+    top:-31px;
+}
+.litt-meun ul{
+    float: left;
+    width: 265px;
+    color: black;
+
+}
+.litt-meun li{
+   overflow: hidden;
+    padding: 18px 15px 18px 18px;
+}
+.litt-meun a{
+    float: left;
+}
+.litt-img:hover .litt-title{
+    color: #ff6700;
+}
+.litt-img img{
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+}
+.litt-img{
+    color: #333333;
+    font-size: 14px;
+    width:168px;
+    height: 43px;
+
+}
+.litt-title{
+
+}
+.litt-meun2{
+    width: 795px;
+}
+
+
+.litt-img{
+    width: 168px;
+}
+.litt-buy{
+    float: right;
+    font-size: 13px;
+    border: 1px solid #ff6700;
+    color: #ff6700;
+    width: 58px;
+    height: 22px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 22px;
+}
+.litt-img:hover .litt-title{
+   color: red;
+}
+
+.litt-buy:hover {
+    background: #ff6700;
+    color: white;
+
+}
+
+
+/*user结束*/
+
+/*channel开始*/
+.channel-first{
+    margin-top: 20px;
+    margin-bottom: 25px;
+    overflow: hidden;
+
+}
+.channel-list{
+    width: 234px;
+    height: 170px;
+    background: #5f5750;
+    float: left;
+
+}
+.hand{
+    display: block;
+    font-size: 30px;
+    text-align: center;
+
+    color: rgba(255,255,255,0.7)
+}
+.channel-list ul{
+    overflow: hidden;
+}
+.channel-list li{
+    float: left;
+    height: 82px;
+    width: 70px;
+   padding: 0px 3px;
+    text-align: center;
+    color: rgba(255,255,255,0);
+    font-size: 12px;
+    position: relative;
+}
+.channel-list a{
+    display:block;
+    margin-top: 18px;
+
+}
+.hans{
+    color: rgba(255,255,255,0.7);
+}
+.right-line{
+    position: absolute;
+    top:10px;
+    width: 1px;
+    height: 65px;
+    background:  #665e57;
+    right: 0;
+    z-index: 1;
+}
+.bottom-line{
+    position: absolute;
+    left:8px;
+    width: 60px;
+    height: 1px;
+    background: #665e57;
+    bottom: 0;
+}
+.promo-list {
+    float: right;
+}
+.promo-list li{
+    float: left;
+    margin-left: 14px;
+
+}
+.channel-list li:hover .hand{
+    color: #fff;
+}
+.channel-list li:hover .hans{
+    color: #fff;
+}
+.new-btn:hover{
+    top:1px;
+    box-shadow: 0px 7px 15px 5px rgba(0,0,0,0.1);
+}
+
+/*channel结束*/
+
+/*star-box开始*/
+.star-box{
+    position: relative;
+}
+.star-title{
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+    color:#333 ;
+
+}
+.star-btn{
+    float:right;
+    position: absolute;
+}
+/*star-box结束*/
+
+

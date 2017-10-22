@@ -106,7 +106,7 @@ img{
     display: none;
     z-index: 2;
 }
-.icon-cart{
+.icon-gouwuche{
     font-size:50px;
 }
 /*nav.结束*/
@@ -248,7 +248,7 @@ background: transparent;
     background: #ff6700;
 
 }
-.icon-search{
+.icon-fangdajing{
     position:absolute;
     right:6px;
     display: block;
