@@ -225,16 +225,16 @@ img{
 }
 .user-text{
     width: 211px;
-    height:44px;
-    border: 1px solid #ccc
-    outline:none;
+    height:46px;
+    border: 1px solid #ccc;
+
     padding: 0 10px;
 }
 
 .user-button{
     float: right;
     height: 48px;
-    width:50px;
+    width:51px;
     position: absolute;
     border: 1px solid #ccc;
 
@@ -253,7 +253,7 @@ background: transparent;
     right:6px;
     display: block;
     height: 48px;
-    width:49px;
+    width:51px;
     line-height: 50px;
     text-align: center;
     top:0px;
