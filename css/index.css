@@ -409,7 +409,7 @@
 }
 
 .table-list{
-    overflow: hidden;
+
     margin-top: 25px;
     color: #5f5750;
 }
@@ -422,9 +422,11 @@
     width: 234px;
     float: left;
 
-
-
-
+}
+.ele-picture{
+    height: 614px;
+    width: 1240px;
+    padding: 0px;
 }
 .picture-style img{
     height: 150px;
@@ -651,3 +653,58 @@
 }
 
 /*zhineng1结束*/
+
+/*热评产品*/
+.hot-product ul{
+    height: 416px;
+   width: 1240px;
+
+}
+.hot-product li{
+    height: 415px;
+    width: 296px;
+    background:#fff;
+    float: left;
+    margin-right: 14px;
+}
+.hot-product img{
+    width: 296px;
+    height: 220px;
+    margin-bottom: 20px;
+}
+.hot-word{
+    font-size: 14px;
+    margin: 0 28px 22px;
+    line-height: 24px;
+
+    color: black;
+}
+.appraise{
+    margin: 0 28px 5px;
+    color: rgb(176, 176, 176);
+    font-size: 12px;
+
+}
+.name1{
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 28px;
+    color: black;
+
+}
+.hot-line{
+   color: #e0e0e0;
+    margin: 0 3px;
+
+}
+.hot-price{
+    display: inline-block;
+    color: #ff6709;
+    font-size: 14px;
+}
+.hot-product li:hover{
+    box-shadow: 5px 5px 5px 5px #cccccc;
+    top:2px
+}
+
+/*热品产品*/
