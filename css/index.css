@@ -391,15 +391,19 @@
 
 .ele-main{
     background:#f5f5f5;
-    overflow: hidden;
+
 }
 .home-main{
-    overflow: hidden;
+
     margin-top: 20px;
 }
 .jiadian {
     margin-top: 40px;
     overflow: hidden;
+}
+.box-right{
+    float: right;
+    width: 1005px;
 }
 .table-list li {
     float: right;
@@ -432,27 +436,20 @@
     height: 150px;
     width: 150px;
     margin-bottom: 10px;
-
-
 }
-
 
 .ele-picture li{
     float: right;
     width: 234px;
     height: 300px;
-
     text-align: center;
-
-    margin-left: 14px;
+    margin-left: 17px;
     position: relative;
-    overflow: hidden;
-
-
 }
 .little-picture{
     background: white;
     text-align: center;
+    overflow: hidden;
 }
 .new-name{
     border: 1px solid red;
@@ -478,7 +475,7 @@
     padding-top: 2px;
 }
 .bottom-j{
-    margin-bottom: 12px;
+    margin-bottom: 14px;
 }
 .active-piece{
    height: 75px;
@@ -487,7 +484,8 @@
     position: absolute;
     width: 234px;
     top:300px;
-    display: none;
+    overflow: hidden;
+
 
 }
 .proper{
@@ -726,7 +724,7 @@
     font-size: 16px;
     font-weight:400;
     color: #ffac13;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .content-name{
     color: black;
@@ -740,29 +738,34 @@
 }
 .price2{
     margin:0 10px 15px;
-    color: black;
+    color: #333;
+    font-size: 14px;
 }
-.content div{
 
+.content-right,.content-left{
     width: 20px;
     height: 48px;
     line-height: 48px;
+    background: #b0b0b0;
+    color: #fff;
+    position: absolute;
+    top:50%;
+    display: none;
 
 }
 .content-right{
-    position: absolute;
     right: 0;
-    top:50%;
-
 }
 .content img{
+    margin:10px 0;
     width: 216px;
     height: 154px;
+    margin-bottom: 20px;
 }
 .content-left{
-    position: absolute;
+
     left: 0;
-    top:50%;
+
 }
 .content-right{
     top:50%;
@@ -771,21 +774,78 @@
     height: 6px;
     width: 6px;
     display: block;
-    background: #b0b0b0;
+
+    background:#b0b0b0;
     border: 2px solid #f5f5f5;
     border-radius: 6px;
 }
-.hot-product .content-slow{
+.content-slow{
     position: absolute;
     width: 296px;
-    display: block;
+    left:50%;
+    margin-left: -47px;
     height: 30px;
-    bottom: 15px;
-   line-height: 30px;
-    text-align: center;
+
+
 }
+.hot-product .content-slow li{
+    margin-right: 30px;
+}
+
+.content-slow ul{
+    width: 296px;
+    height: 30px;
+
+}
+.hot-product .content-slow li:hover{
+    cursor: pointer;
+    box-shadow: none;
+    top:0px;
+    border: 2px solid #ff6700;
+    background: #fff;
+
+
+}
+.content li:hover div{
+    display: block;
+
+}
+.content-right:hover,.content-left:hover{
+    background: #5f5750;
+}
+
 /*内容结束*/
 
+/*视频开始*/
+.more{
+    float: right;
+    padding-top: 20px;
+    position: relative;
+
+
+}
+.more-style{
+
+
+    font-size: 16px;
+    color: #424242;
+    vertical-align: middle;
+
+}
+.right-style{
+
+    vertical-align:-5px;
+   display:inline-block;
+    font-size: 24px;
+    color: #b0b0b0;
+    margin-left: px;
+}
+.movie li{
+    width: 296px;
+    height: 285px;
+
+}
+/*视频结束*/
 
 
 
