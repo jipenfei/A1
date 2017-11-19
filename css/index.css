@@ -2,11 +2,18 @@
 .user-tu{
    height: 460px;
 }
-.fangtu{
+.picture-box{
     height:460px;
-    overflow: hidden;
     width:1226px;
     position: absolute;
+}
+.picture-box img{
+    height:460px;
+    width:1226px;
+    display: none;
+}
+.picture-box .show{
+    display: block;
 }
 .user-list{
     display: block;
@@ -90,8 +97,6 @@
     width: 150px;
     height: 18px;
     position: absolute;
-
-
     z-index: 3;
     bottom:20px;
 }
@@ -106,12 +111,11 @@
     margin-right: 10px;
     cursor: pointer;
 }
-.xiao-btn li:hover{
+.select{
     background: #fff;
     border: 2px solid #65666b;
-
-
 }
+
 
 .litt-meun{
     width: 795px;
