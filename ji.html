@@ -1113,13 +1113,15 @@
         <h1 class="star-title">为你推荐</h1>
 
         <div class="star-btn ">
-            <i class="iconfont icon-shangyizhang left"></i>
+            <i class="iconfont icon-shangyizhang left" id ="left1"></i>
             <span class="right-line1"></span>
-            <i class="iconfont icon-xiayizhang right"></i>
+            <i class="iconfont icon-xiayizhang right" id = 'right1'></i>
         </div>
     </div>
-    <div class=" wrapper pro-list1">
-        <ul>
+    <div class=" wrapper pro-list1 " >
+
+        <ul id = 'move'>
+
             <li class="it-meun"><a href="#"  class="img-box"><img src="img/hongmi.png"></a>
                 <a href="#" class="name">红米NOTE4 浅蓝色 </a>
                 <p class="propert">5.5"金属机身，4100mAh 超长续航</p>
@@ -1172,6 +1174,7 @@
                 <p class="price">999元起</p>
             </li>
         </ul>
+
     </div>
     <div class="wrapper hot-product">
         <div class="zhineng">
@@ -1308,6 +1311,7 @@
 
 
     </div>
+</div>
 
 
 
@@ -1322,7 +1326,6 @@
         var oLI = oUl.getElementsByTagName("li");
         var oBtn = aUl.getElementsByClassName("next-btn")[0];
         var oPtn = aUl.getElementsByClassName("prev-btn")[0];
-        console.log(oBtn)
         var oNow = 0;
         var time;
        for(var i=0;i<oLI.length;i++){
@@ -1369,6 +1372,26 @@
         }
               
         
+    <!--</script>    <!--轮播图-->
+
+    <script>
+   var Brnr = document.getElementById("right1");
+   console.log(Brnr)
+   var pRo = document.getElementsByClassName("pro-list1")[0];
+   var mOve = document.getElementById("move");
+
+   console.log(mOve);
+   var oUl2 = document.getElementsByClassName("wrapper")[0];
+   Brnr.onmouseover = function () {
+      var time = setInterval(function () {
+
+     if(mOve.offsetLeft<=-1226){
+         clearInterval(time)
+
+     }
+          mOve.style.left = mOve.offsetLeft-2+"Px";
+   },1)
+   }
     </script>
 
 

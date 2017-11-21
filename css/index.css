@@ -630,16 +630,23 @@
     height: 300px;
     width: 234px;
 }
-.star-box1{overflow: hidden;
+.star-box1{
+    overflow: hidden;
     position: relative;
-    margin-top: 10px;}
+    margin-top: 10px;
+}
 .pro-list1{
     overflow: hidden;
+    height: 341px;
     margin-bottom: 40px;
+    position: relative;
+
 }
-.pro-list1 ul{
+.pro-list1 #move{
     width: 2480px;
-    overflow: hidden;
+    height: 341px;
+    position: absolute;
+
 }
 .pro-list1 li{
     height: 340px;
