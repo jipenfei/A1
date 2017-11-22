@@ -307,7 +307,7 @@
     margin-left: 5px;
     float: left;
     cursor: pointer;
-    color: #e0e0e0;
+
 
 
 }
@@ -329,9 +329,9 @@
     left: 36px;
 }
 
-.star-btn i.right:hover{
-    color: #ff6700;
-}
+/*.star-btn i.right:hover{*/
+    /*color: #ff6700;*/
+/*}*/
 .pro-list{
     overflow: hidden;
     margin-bottom: 40px;
@@ -407,7 +407,7 @@
 }
 .box-right{
     float: right;
-    width: 1005px;
+    width: 990px;
 }
 .table-list li {
     float: right;
@@ -433,7 +433,7 @@
 }
 .ele-picture{
     height: 614px;
-    width: 1240px;
+    width: 1226px;
     padding: 0px;
 }
 .picture-style img{
@@ -447,7 +447,7 @@
     width: 234px;
     height: 300px;
     text-align: center;
-    margin-left: 17px;
+    margin-left: 13px;
     position: relative;
 }
 .little-picture{

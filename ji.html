@@ -1373,26 +1373,46 @@
               
         
     <!--</script>    <!--轮播图-->
-
     <script>
    var Brnr = document.getElementById("right1");
+   var Brnr2 = document.getElementById("left1");
    console.log(Brnr)
    var pRo = document.getElementsByClassName("pro-list1")[0];
    var mOve = document.getElementById("move");
-
    console.log(mOve);
    var oUl2 = document.getElementsByClassName("wrapper")[0];
    Brnr.onmouseover = function () {
-      var time = setInterval(function () {
+       if(mOve.offsetLeft>=-1226){
+           var time = setInterval(function () {
 
-     if(mOve.offsetLeft<=-1226){
-         clearInterval(time)
+               if(mOve.offsetLeft<=-1226){
+                   clearInterval(time)
 
-     }
-          mOve.style.left = mOve.offsetLeft-2+"Px";
-   },1)
+               }
+               mOve.style.left = mOve.offsetLeft-10+"Px";
+           },1)
+       }
+       Brnr.style.color ="#ff6700"
    }
-    </script>
+   Brnr2.onmouseover = function () {
+       console.log(mOve.offsetLeft)
+       if(mOve.offsetLeft<=-1226){
+           var time = setInterval(function () {
+               if(mOve.offsetLeft>=0){
+                   clearInterval(time)
+               }
+               mOve.style.left = mOve.offsetLeft+10+"Px";
+           },1)
+       }
+       Brnr2.style.color ="#ff6700"
+   }
+  Brnr2.onmouseout = function () {
+      Brnr2.style.color =""
+  }
+   Brnr.onmouseout = function () {
+       Brnr.style.color =""
+   }
+    </script><!--滚动-->
 
 
 </body>
