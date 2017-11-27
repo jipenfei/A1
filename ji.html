@@ -364,13 +364,13 @@
     <h1 class="star-title">小米明新单品</h1>
     <div></div>
     <div class="star-btn ">
-        <i class="iconfont icon-shangyizhang left"></i>
+        <i class="iconfont icon-shangyizhang left "></i>
         <span class="right-line1"></span>
         <i class="iconfont icon-xiayizhang right"></i>
     </div>
 </div>
     <div class=" wrapper pro-list">
-        <ul>
+        <ul id ="move">
             <li class="it-meun"><a href="#"  class="img-box"><img src="img/hongmi.png"></a>
              <a href="#" class="name">红米NOTE4 浅蓝色 </a>
                 <p class="propert">5.5"金属机身，4100mAh 超长续航</p>
@@ -1219,6 +1219,7 @@
         </div>
         <ul class="content">
             <li class="it-meun1">
+
                 <p class="content-1">图书</p>
               <a href="#"><p class="content-name">哈利.波特与被诅咒的孩子</p>
                <p class="write">“哈利.波特”第八个故事中文版震撼来袭！特别彩排版剧本。</p>
@@ -1233,6 +1234,10 @@
                     <li class="little-slow"></li>
                 </ul>
                 </div>
+
+
+
+
 
             </li>
             <li class="it-meun2">
@@ -1374,12 +1379,55 @@
         
     <!--</script>    <!--轮播图-->
     <script>
+        var sTar_btn = document.getElementsByClassName("star-btn")[0];
+        var move = document.getElementById("move");
+
+        var oI1 = sTar_btn.getElementsByTagName("i");
+        for(var i = 0;i<=oI1.length;i++){
+            oI1[i].index = i;
+            oI1[i].onmouseover = function(){
+                this.style.color = "red";
+                if(this.index == 1){
+                    console.log(move.offsetLeft)
+                    if(move.offsetLeft==0){
+                        dd()
+                    }
+
+                }
+                else if(this.index == 0){
+                    if(move.offsetLeft <=-1226){
+                        cc()
+                    }
+                }
+            }
+            oI1[i].onmouseout = function () {
+                this.style.color = ""
+            }
+
+        }
+      function dd() {
+       var time =  setInterval(function () {
+           move.style.left = move.offsetLeft-10+"px";
+           if(move.offsetLeft<=-1226){
+               clearInterval(time)
+           }
+       },1)
+   }
+        function cc() {
+            var time =  setInterval(function () {
+                move.style.left = move.offsetLeft+10+"px";
+                if(move.offsetLeft>=0){
+                    clearInterval(time)
+                }
+            },1)
+        }
+
+    </script><!--滚动1-->
+    <script>
    var Brnr = document.getElementById("right1");
    var Brnr2 = document.getElementById("left1");
-   console.log(Brnr)
    var pRo = document.getElementsByClassName("pro-list1")[0];
    var mOve = document.getElementById("move");
-   console.log(mOve);
    var oUl2 = document.getElementsByClassName("wrapper")[0];
    Brnr.onmouseover = function () {
        if(mOve.offsetLeft>=-1226){
@@ -1413,6 +1461,23 @@
        Brnr.style.color =""
    }
     </script><!--滚动-->
+    <script>
+        var it_menu1 = document.getElementsByClassName("show-it")[0];
+        var little_slow = it_menu1.getElementsByTagName("li");
+        console.log(little_slow)
+        for(var i =0;i<=little_slow.length;i++){
+            little_slow[i].index = i;
+            little_slow[i].onmouseover = function(){
+                little_slow(this.index)
+            }
+        }
+     function aa2(a) {
+         for(var j=0;j<=little_slow;j++){
+             little_slow[j].className=""
+         }
+         little_slow[i].className = "";
+     }
+    </script><!--内容-->
 
 
 </body>
