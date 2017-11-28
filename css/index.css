@@ -345,7 +345,9 @@
 .it-meun1{
     border-top: 1px solid blue;
 }
-
+.show-it{
+    display: none;
+}
 .it-meun2{
     border-top: 1px solid green;
 }
