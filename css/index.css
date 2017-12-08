@@ -408,6 +408,7 @@
 .home-main{
 
     margin-top: 20px;
+
 }
 .jiadian {
     margin-top: 40px;
@@ -443,7 +444,45 @@
     height: 614px;
     width: 1226px;
     padding: 0px;
+
 }
+.ele-home{
+    height: 614px;
+    width: 1226px;
+    padding: 0px;
+    display: none;
+}
+#ele-selected{
+   width: 1226px;
+    height: 614px;
+
+}
+ #ele-selected .ele{
+    display: block;
+}
+
+.ele-home1{
+    height: 614px;
+    width: 1226px;
+    padding: 0px;
+   display: none;
+
+}
+.ele-home2{
+    height: 614px;
+    width: 1226px;
+    padding: 0px;
+    display: none;
+}
+.ele-home3{
+    height: 614px;
+    width: 1226px;
+    padding: 0px;
+   display: none;
+
+}
+
+
 .picture-style img{
     height: 150px;
     width: 150px;
@@ -458,6 +497,39 @@
     margin-left: 13px;
     position: relative;
 }
+.ele-home li{
+    float: right;
+    width: 234px;
+    height: 300px;
+    text-align: center;
+    margin-left: 13px;
+    position: relative;
+}
+.ele-home1 li{
+     float: right;
+     width: 234px;
+     height: 300px;
+     text-align: center;
+     margin-left: 13px;
+     position: relative;
+ }
+.ele-home2 li{
+    float: right;
+    width: 234px;
+    height: 300px;
+    text-align: center;
+    margin-left: 13px;
+    position: relative;
+}
+.ele-home3 li{
+    float: right;
+    width: 234px;
+    height: 300px;
+    text-align: center;
+    margin-left: 13px;
+    position: relative;
+}
+
 .little-picture{
     background: white;
     text-align: center;
