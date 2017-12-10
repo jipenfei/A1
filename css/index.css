@@ -413,6 +413,7 @@
 .jiadian {
     margin-top: 40px;
     overflow: hidden;
+    padding-top: 60px;
 }
 .box-right{
     float: right;
@@ -683,7 +684,7 @@
 /*home-main结束*/
 /*zhineng开始*/
 .zhineng{
-    margin-top: 10px;
+    margin-top: 25px;
     overflow: hidden;
 }
 .bottom-zhi img{
@@ -713,12 +714,11 @@
 .star-box1{
     overflow: hidden;
     position: relative;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 .pro-list1{
     overflow: hidden;
     height: 341px;
-    margin-bottom: 40px;
     position: relative;
 
 }
@@ -932,14 +932,39 @@
     color: #b0b0b0;
     margin-left: px;
 }
+.hot-product .movie{
+    height: 285px;
+    padding-bottom: 60px;
+}
 .movie li{
     width: 296px;
     height: 285px;
+    position: relative;
 
+}
+.movie img{
+    width: 296px;
+    height: 180px;
+
+}
+.play{
+    font-size:30px;
+    position: absolute;
+    left: 10px;
+    top:140px;
+    color: white;
+
+}
+.price3{
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+}
+.movie .write{
+    text-align: center;
 }
 /*视频结束*/
 
-
-
+/*地址栏*/
 
 
