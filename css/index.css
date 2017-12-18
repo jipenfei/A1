@@ -1080,8 +1080,45 @@
     overflow: hidden;
     margin-left:55px;
 }
+.foot-top a:hover{
+    color: #ff6700;
+}
 
-.foot{
+.foot {
     font-size: 12px;
     color: #b0b0b0;
+}
+.foot-two{
+    font-size: 12px;
+    color: #b0b0b0;
+    padding-left: 56px;
+}
+.foot-two a{
+    color: #b0b0b0;
+}
+.foot-two a:hover{
+    color: #ff6700;
+}
+.address{
+    position: relative;
+}
+.foot-img{
+    width:450px;
+    height: 28px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+.foot-img img{
+    height: 28px;
+    width: 83px;
+    float: right;
+}
+.slogan{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+   text-indent: -9999em;
+    background: url("../img/slogan2016.png") no-repeat center 0;
 }
